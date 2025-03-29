@@ -1,69 +1,70 @@
-# Welcome to your Lovable project
+# Country Explorer Portal
 
-## Project info
+Welcome to the **Country Explorer Portal**! This project is a web application that allows users to explore data about countries around the globe. Users can browse detailed information about various countries, including population, region, languages, and more. Additionally, the application provides tools for tracking IP addresses to their geographic locations.
 
-**URL**: https://lovable.dev/projects/3bf9ee83-2ba9-4d09-8d6f-7cffbf96c50b
+## Features
 
-## How can I edit this code?
+- **Explore Countries**: Browse and search for countries with detailed information.
+- **IP Tracker**: Trace IP addresses to their geographic locations.
+- **Responsive Design**: The application is designed to work seamlessly on both desktop and mobile devices.
+- **Animations**: Smooth animations enhance the user experience using `framer-motion`.
+- **Modern UI**: Built with Tailwind CSS for a clean and modern interface.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool that provides a smooth development experience.
+- **TypeScript**: For type safety and better development experience.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Framer Motion**: For animations and transitions.
+- **React Router**: For routing and navigation within the application.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3bf9ee83-2ba9-4d09-8d6f-7cffbf96c50b) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+To get a local copy up and running, follow these steps:
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (version 14 or later)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/country-explorer.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd country-explorer
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Running the Application
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To start the development server, run:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contributing
 
-**Use GitHub Codespaces**
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is built with .
+## Acknowledgments
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3bf9ee83-2ba9-4d09-8d6f-7cffbf96c50b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- Thanks to the contributors and the open-source community for their support and resources.
