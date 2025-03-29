@@ -32,7 +32,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/country-explorer.git
+   git clone https://github.com/piksl1/country-explorer.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -55,7 +55,7 @@ npm run dev
 yarn dev
 ```
 
-Open your browser and navigate to `http://localhost:3000` to see the application in action.
+Open your browser and navigate to `country-explorer-black.vercel.app` to see the application in action.
 
 ## Contributing
 
